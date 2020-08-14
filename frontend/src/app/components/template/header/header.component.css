@@ -3,7 +3,7 @@
     align-items: center;
 }
 .header a {
-    display: felx;
+    display: flex;
     align-items: center;
     text-decoration: none;
 }

@@ -1,0 +1,22 @@
+{
+    "products": [{
+        "id": 1,
+        "name": "Canta Bic Preta",
+        "price": 5.4
+    },
+    {
+        "id": 2,
+        "name": "Macbook Pro",
+        "price": 1090.00
+    },
+    {
+        "id": 3,
+        "name": "Impressora",
+        "price": 549.0
+    },
+    {
+        "id": 4,
+        "name": "Canta Bic Preta",
+        "price": 5.4
+    }]
+}

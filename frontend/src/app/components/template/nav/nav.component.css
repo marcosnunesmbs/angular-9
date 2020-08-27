@@ -12,3 +12,7 @@
 .sidenav a:hover {
     background-color: dimgrey;
 }
+.content {
+    padding: 16px;
+    background: white;
+}

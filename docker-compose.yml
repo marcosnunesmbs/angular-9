@@ -1,0 +1,16 @@
+version: "3"
+services: 
+    frontend:
+        image: node:10
+        volumes:
+            - ./frontend:/frontend
+        ports:
+            - 4200:4200
+        command: bash -c "cd /frontend && npm i && npm start"
+    backend:
+        image: node:10
+        volumes:
+            - ./backend:/backend
+        ports:
+            - 3001:3001
+        command: bash -c "cd /backend && npm i && npm start"
